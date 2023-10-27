@@ -3,7 +3,7 @@ import AddBtn from '../AddBtn';
 import ReduceBtn from '../ReduceBtn';
 import AddToCart from './AddToCart';
 import PropTypes from 'prop-types';
-import CartContext from '../../Context/cartContext';
+import CartContext from '../../Context/CartContext';
 
 export default function CardBtns({ name, price, image, id }) {
   const { cart, setCart } = useContext(CartContext);

@@ -4,7 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 import userEvent from '@testing-library/user-event';
 import App from './App';
 import Cart from './components/Display/CartComponents/Cart';
-import CartContext from './components/Context/cartContext';
+import CartContext from './components/Context/CartContext';
 
 // vitest with react testing library
 // test suite (describe) contains all related tests

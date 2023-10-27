@@ -2,7 +2,7 @@ import { ShoppingBasket } from '@mui/icons-material';
 import { Badge } from '@mui/material';
 import { useContext } from 'react';
 import { Link } from 'react-router-dom';
-import CartContext from '../../Context/cartContext';
+import CartContext from '../../Context/CartContext';
 
 export default function CartBtn() {
   const { cart } = useContext(CartContext);
