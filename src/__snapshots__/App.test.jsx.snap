@@ -1,0 +1,96 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Initial render of App component > renders home page 1`] = `
+<div>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a
+            class="btn undefined"
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            class="btn undefined"
+            href="/shop"
+          >
+            Shop
+          </a>
+        </li>
+        <li>
+          <a
+            class="cartBtn"
+            href="/cart"
+          >
+            <span
+              class="MuiBadge-root css-1c32n2y-MuiBadge-root"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-colorAction MuiSvgIcon-fontSizeMedium css-11pbyhm-MuiSvgIcon-root"
+                data-testid="ShoppingBasketIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="m17.21 9-4.38-6.56c-.19-.28-.51-.42-.83-.42-.32 0-.64.14-.83.43L6.79 9H2c-.55 0-1 .45-1 1 0 .09.01.18.04.27l2.54 9.27c.23.84 1 1.46 1.92 1.46h13c.92 0 1.69-.62 1.93-1.46l2.54-9.27L23 10c0-.55-.45-1-1-1h-4.79zM9 9l3-4.4L15 9H9zm3 8c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"
+                />
+              </svg>
+              <span
+                class="MuiBadge-badge MuiBadge-standard MuiBadge-invisible MuiBadge-anchorOriginTopRight MuiBadge-anchorOriginTopRightRectangular MuiBadge-overlapRectangular MuiBadge-colorError css-zkqb44-MuiBadge-badge"
+              />
+            </span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section
+      class="homepage"
+    >
+      <div
+        class="homeLogo"
+      >
+        <img
+          alt="homepage-logo"
+          src="./homelogo.svg"
+        />
+        <p>
+          <a
+            class="attribute"
+            href="https://www.freepik.com/free-vector/ecommerce-web-page-concept-illustration_21727022.htm#query=e-commerce&position=2&from_view=search&track=sph"
+          >
+            Image by storyset
+          </a>
+           
+          on Freepik
+        </p>
+      </div>
+      <div>
+        <h1>
+          Online Store
+        </h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, officiis repudiandae! Dolores odio minus quos ea nulla inventore provident velit beatae. Repellendus quas deleniti culpa suscipit dolore fuga totam quae!
+        </p>
+        <a
+          class="btn defaultBtn"
+          href="/shop"
+        >
+          Shop Now
+        </a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>
+      Built by Lits
+    </p>
+  </footer>
+</div>
+`;

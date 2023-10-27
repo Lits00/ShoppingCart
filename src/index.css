@@ -1,0 +1,134 @@
+/* General */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+:root {
+  --text: #263238;
+  --background: #ffffff;
+  --primary: #ff725e;
+  --secondary: #e0e0e0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+#root,
+header,
+ul,
+main,
+.homepage,
+footer,
+.errorPage {
+  display: flex;
+}
+
+#root {
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Header Section */
+header {
+  justify-content: right;
+  padding: 3vh 10vw;
+  background-color: var(--background);
+  border-bottom: solid 1px var(--secondary);
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+
+.storeLogo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+ul li {
+  list-style-type: none;
+  margin: 0 1rem;
+  font-size: 1.3rem;
+}
+
+.btn {
+  text-decoration: none;
+  color: black;
+}
+
+.defaultBtn {
+  color: var(--background);
+  background-color: var(--primary);
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.defaultBtn:hover {
+  background-color: var(--text);
+}
+
+/* Main Content Display */
+main {
+  flex: 1;
+  margin-top: 10vh;
+  padding: 0 10vw;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.homepage {
+  align-items: center;
+}
+
+.homeLogo {
+  width: 90vw;
+  text-align: center;
+}
+
+.homepage div {
+  padding: 1rem;
+}
+
+.homepage div p {
+  margin: 1rem 0 2rem;
+}
+
+.shopPage,
+.cartPage {
+  padding: 1.5rem 0;
+}
+
+/* Footer Section */
+footer {
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+footer a {
+  color: var(--text);
+}
+
+/* Error Page */
+.errorPage {
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.errorPage img {
+  width: 40vw;
+}
+
+.attribute {
+  color: var(--text);
+}
+
+@media screen and (max-width: 600px) {
+  .homepage {
+    flex-direction: column;
+  }
+}
